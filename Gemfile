@@ -74,3 +74,6 @@ end
 
 # Adding simple forms
 gem 'simple_form'
+
+# Adding Devise
+gem 'devise'
