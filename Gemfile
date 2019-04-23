@@ -60,3 +60,14 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Adding the latest version of jQuery and the jQuery-ujs driver
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+
+# Adding Bootstrap 4 and it's dependencies
+gem 'popper_js', '~> 1.14.5'
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
