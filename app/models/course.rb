@@ -3,6 +3,7 @@
 # this is the Course class
 class Course < ApplicationRecord
   belongs_to :user
+  has_many :sections
 
   validates :title, presence: true
   validates :description, presence: true
