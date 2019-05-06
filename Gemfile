@@ -77,3 +77,6 @@ gem 'simple_form'
 
 # Adding Devise
 gem 'devise'
+
+# Adding Carrierwave
+gem 'carrierwave', '~> 1.3', '>= 1.3.1'
