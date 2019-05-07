@@ -3,10 +3,12 @@
   <h1 class="text-center"><%= current_course.title %></h1>
   <br />
   <img src="<%= current_course.image %>" class="img-fluid">
-  <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right' %>
-  <br class="clr" />
-
+  <br />
+  <br />
   <div class="text-center">
+    <br class="clr" />
+    <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right' %>
+    
     <%= link_to 'Add a new section...', new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-lg' %>
   </div>
 

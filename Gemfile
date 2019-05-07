@@ -78,5 +78,13 @@ gem 'simple_form'
 # Adding Devise
 gem 'devise'
 
+#Adding Figaro
+# Configuration values often include sensitive information. 
+# Figaro strives to be secure by default by encouraging a convention that keeps configuration out of Git.
+gem "figaro"
+
 # Adding Carrierwave
 gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+
+# Configuring carrierwave to use AWS
+gem "fog-aws"
