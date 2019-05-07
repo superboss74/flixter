@@ -88,3 +88,7 @@ gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 
 # Configuring carrierwave to use AWS
 gem "fog-aws"
+
+# Ruby Sass has reached end-of-life and should no longer be used.
+# If you use Sass as a plug-in for a Ruby web framework, we recommend using the sassc
+gem "sassc"
