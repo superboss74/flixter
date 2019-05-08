@@ -92,3 +92,6 @@ gem "fog-aws"
 # Ruby Sass has reached end-of-life and should no longer be used.
 # If you use Sass as a plug-in for a Ruby web framework, we recommend using the sassc
 gem "sassc"
+
+# Installing this gem that works with Carrierwave for resizing pictures
+gem "mini_magick"
