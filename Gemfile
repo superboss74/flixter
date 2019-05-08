@@ -78,20 +78,24 @@ gem 'simple_form'
 # Adding Devise
 gem 'devise'
 
+# Ruby Sass has reached end-of-life and should no longer be used.
+# If you use Sass as a plug-in for a Ruby web framework, we recommend using the sassc
+gem 'sassc'
+
 #Adding Figaro
 # Configuration values often include sensitive information. 
-# Figaro strives to be secure by default by encouraging a convention that keeps configuration out of Git.
+# Figaro strives to be secure by default by encouraging a convention
+# that keeps configuration out of Git.
 gem "figaro"
 
 # Adding Carrierwave
 gem 'carrierwave', '~> 1.3', '>= 1.3.1'
 
 # Configuring carrierwave to use AWS
-gem "fog-aws"
-
-# Ruby Sass has reached end-of-life and should no longer be used.
-# If you use Sass as a plug-in for a Ruby web framework, we recommend using the sassc
-gem "sassc"
+gem 'fog-aws'
 
 # Installing this gem that works with Carrierwave for resizing pictures
-gem "mini_magick"
+gem 'mini_magick'
+
+# Use the officially supported AWS-SDK library for S3 storage rather than relying on fog.
+gem 'carrierwave-aws'
