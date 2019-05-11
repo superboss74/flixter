@@ -99,3 +99,6 @@ gem 'mini_magick'
 
 # Use the officially supported AWS-SDK library for S3 storage rather than relying on fog.
 gem 'carrierwave-aws'
+
+# To handle Credit Card Checkout Course fees in this project
+gem 'stripe'
