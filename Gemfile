@@ -97,8 +97,13 @@ gem 'fog-aws'
 # Installing this gem that works with Carrierwave for resizing pictures
 gem 'mini_magick'
 
-# Use the officially supported AWS-SDK library for S3 storage rather than relying on fog.
+# Use the officially supported AWS-SDK library for S3 storage
+# rather than relying on fog.
 gem 'carrierwave-aws'
 
 # To handle Credit Card Checkout Course fees in this project
 gem 'stripe'
+
+# To handle reordering of items in a DB table,
+# AKA getting our ducks in an row solution
+gem 'ranked-model'
