@@ -16,9 +16,12 @@
 <br />
 <div class="booyah-box col-10 offset-1">
   <h1 class="text-center"><%= current_course.title %></h1>
-  <img src="<%= current_course.image %>" class="img-fluid">
-
+  <br />
+  <img src="<%= current_course.image %>" class="img-fluid rounded mx-auto d-block">
+  <br /><br />
   <div class="text-center">
+    <%= link_to 'Preview As Student...', course_path(current_course), class: 'btn btn-warning float-right' %>
+    <br />
     <%= link_to 'Add a new section...', new_instructor_course_section_path(current_course), class: 'btn btn-primary btn-lg' %>
   </div>
 
