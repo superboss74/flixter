@@ -107,3 +107,6 @@ gem 'stripe'
 # To handle reordering of items in a DB table,
 # AKA getting our ducks in an row solution
 gem 'ranked-model'
+
+# This gem packages the jQuery UI assets
+gem 'jquery-ui-rails'
