@@ -110,3 +110,5 @@ gem 'ranked-model'
 
 # This gem packages the jQuery UI assets
 gem 'jquery-ui-rails'
+
+gem 'font-awesome-rails'
