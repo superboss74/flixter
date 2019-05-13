@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require jquery-ui
  *= require font-awesome
  */
 @import "bootstrap";
@@ -123,19 +124,6 @@ ul .header .fa {
   height: 130px;
 }
 
-.section {
-  border: 1px solid;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  padding: 20px;
-}
-
-.section-li {
-  border: 1px solid;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  padding: 20px;
-  margin: 20px;
-} 
-
 .lesson a {
   color: white;
   font-family: "Helvetica Neue", Helvetica;
@@ -166,3 +154,16 @@ ul .header .fa {
 .lessons li p {
   margin: 0;
 }
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
+} 
