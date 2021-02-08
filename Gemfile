@@ -89,7 +89,7 @@ gem 'sassc'
 gem "figaro"
 
 # Adding Carrierwave
-gem 'carrierwave', '~> 1.3', '>= 1.3.1'
+gem 'carrierwave', '~> 1.3'
 
 # Configuring carrierwave to use AWS
 gem 'fog-aws'
